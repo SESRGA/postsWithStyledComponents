@@ -16,6 +16,7 @@ const StyledFlex = styled.div`
     color: ${({color}) => color || 'darkblue'};
     cursor: ${({cursor}) => cursor || ''};
     max-width: ${({maxwidth}) => maxwidth || '100%'};
+    flex-wrap: ${({wrap}) => wrap || ''};;
 `
 
 export const Flex = (props) => {

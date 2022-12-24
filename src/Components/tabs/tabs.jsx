@@ -6,7 +6,7 @@ import { Tab } from "./tab";
 export const Tabs = ({ids, removeTab, currentTab, setCurrentTab}) => {
     const idsArray = Array.from(ids)
     return (
-        <Flex justify='start'>
+        <Flex justify='start' wrap='wrap'>
             <DefaultTab currentTab={currentTab} setCurrentTab={setCurrentTab}/>
             {idsArray.map(id => 
                 <Tab 

@@ -26,7 +26,7 @@ export const Tab = ({id, removeTab, currentTab, setCurrentTab}) => {
                 width='20px'
                 height='20px'
                 borderradius='10px'
-                border='darkblue solid 1px'
+                border='#FF7700 solid 2px'
             >
                 x
             </MyButton>
